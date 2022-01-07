@@ -1,0 +1,2 @@
+PKG_LIBS = -L/opt/local/lib -lgsl -lgslcblas $(LAPACK_LIBS) $(BLAS_LIBS) $(FLIBS)
+PKG_CXXFLAGS =  -I/opt/local/include -std=c++14

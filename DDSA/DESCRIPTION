@@ -1,0 +1,17 @@
+Package: DDSA
+Type: Package
+Title: DDSA: Data-driven Spectrophotometric Analyses of Type Ia Supernovae
+Version: 0.1.0
+Author: Yan,Xiaomeng
+Maintainer: Yan, Xiaomeng <yanxiaomeng@tamu.edu>
+Description: More about what it does (maybe more than one line)
+    Use four spaces when indenting paragraphs within the Description.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Imports:
+    methods,Rcpp (>= 0.12.6)
+Depends: R6, MASS, quadprog, splines, foreach, doParallel,caret,parallel,iterators
+LinkingTo:
+    Rcpp,RcppArmadillo,RcppGSL
+

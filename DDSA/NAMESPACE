@@ -1,0 +1,14 @@
+exportPattern("^[[:alpha:]]+")
+importFrom(Rcpp, evalCpp)
+useDynLib(DDSA)
+import(methods,Rcpp)
+importFrom(R6, R6Class)
+
+export(
+  R_spline_class,
+  R_wavelet_class,
+  sn_class,
+  LoadData,
+  Mean_SEDTraining,
+  PC_SEDTraining
+)
